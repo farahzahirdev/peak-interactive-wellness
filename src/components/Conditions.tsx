@@ -11,7 +11,7 @@ export default function Conditions() {
             Conditions we help treat.
           </h2>
           <p className="text-lead mt-4">
-            Built for self-aware adults who want a trusted partner—especially when medication or
+            Built for self-aware adults who want a trusted partner, especially when medication or
             therapy alone hasn&apos;t been enough.
           </p>
         </Reveal>

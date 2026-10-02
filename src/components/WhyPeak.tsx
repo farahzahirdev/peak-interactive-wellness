@@ -16,7 +16,7 @@ export default function WhyPeak() {
               <p className="text-lead mt-4">
                 We&apos;re here for the self-aware, the self-starters, and anyone who&apos;s tried
                 therapy or medication before and felt something was missing. Mental health is
-                personal—your care should be, too.
+                personal. Your care should be, too.
               </p>
             </Reveal>
 

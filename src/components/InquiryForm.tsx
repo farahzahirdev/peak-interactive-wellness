@@ -51,7 +51,7 @@ export default function InquiryForm() {
           <div className="pk-final-banner">
             <h2>Ready for care that meets you where you are?</h2>
             <p>
-              See if you qualify for TMS or Spravato®—or call our team. Confidential, no obligation.
+              See if you qualify for TMS or Spravato®, or call our team. Confidential, no obligation.
             </p>
             <div className="mt-7 flex flex-col items-center justify-center gap-3 sm:flex-row">
               <a href={PHONE_HREF} className="btn btn-primary">

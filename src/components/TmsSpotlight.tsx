@@ -4,7 +4,7 @@ import { FORM_SECTION_ID, IMAGES } from "@/lib/constants";
 
 const EXPECT = [
   "Comprehensive evaluation to confirm candidacy",
-  "Non-invasive sessions—no anesthesia required",
+  "Non-invasive sessions with no anesthesia required",
   "Typically covered by many commercial plans for qualifying patients",
 ] as const;
 
@@ -29,7 +29,7 @@ export default function TmsSpotlight() {
             <div className="pk-tms-copy">
               <p className="pk-spotlight-kicker">TMS Therapy</p>
               <h2 className="pk-spotlight-title">
-                Targeted brain stimulation—not another medication trial.
+                Targeted brain stimulation, not another medication trial.
               </h2>
               <p className="pk-spotlight-lede">
                 When depression hasn&apos;t responded to antidepressants, TMS delivers precise

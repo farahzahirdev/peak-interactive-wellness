@@ -129,7 +129,7 @@ export const SERVICES = [
     id: "tms",
     title: "TMS Therapy",
     description:
-      "FDA-cleared magnetic stimulation that targets mood-regulating brain circuits—without medication side effects circulating through your whole body.",
+      "FDA-cleared magnetic stimulation that targets mood-regulating brain circuits, without medication side effects circulating through your whole body.",
     href: "#tms",
   },
   {
@@ -165,7 +165,7 @@ export const CONDITIONS = [
 ] as const;
 
 export const WHY_ITEMS = [
-  "You’re more than a diagnosis—care plans reflect your whole story",
+  "You’re more than a diagnosis. Care plans reflect your whole story",
   "Licensed nurse practitioner team with deep clinical expertise",
   "Innovative options for treatment-resistant depression (TMS & Spravato®)",
   "Most commercial insurance plans accepted",
@@ -190,7 +190,7 @@ export const HOW_IT_WORKS = [
     step: "03",
     title: "Personalized plan",
     description:
-      "Your provider builds a compassionate, evidence-based plan around your goals—not just a label.",
+      "Your provider builds a compassionate, evidence-based plan around your goals, not just a label.",
   },
   {
     step: "04",
@@ -231,7 +231,7 @@ export const FAQ_ITEMS = [
   {
     question: "Who may qualify for TMS or Spravato®?",
     answer:
-      "Both treatments are typically considered for adults with treatment-resistant depression—often after trying two or more antidepressants without lasting relief. A clinical evaluation confirms candidacy, safety considerations, and whether insurance may cover care.",
+      "Both treatments are typically considered for adults with treatment-resistant depression, often after trying two or more antidepressants without lasting relief. A clinical evaluation confirms candidacy, safety considerations, and whether insurance may cover care.",
   },
   {
     question: "Does insurance cover these treatments?",
@@ -241,16 +241,16 @@ export const FAQ_ITEMS = [
   {
     question: "What’s the difference between TMS and Spravato®?",
     answer:
-      "TMS uses focused magnetic pulses to stimulate underactive mood circuits and requires no sedation—you can typically drive yourself. Spravato® is an esketamine nasal spray given under supervision in-office; you’ll need a driver home afterward. Your provider will help choose what fits you best.",
+      "TMS uses focused magnetic pulses to stimulate underactive mood circuits and requires no sedation, so you can typically drive yourself. Spravato® is an esketamine nasal spray given under supervision in-office; you’ll need a driver home afterward. Your provider will help choose what fits you best.",
   },
   {
     question: "Do you offer telehealth?",
     answer:
-      "Yes. Peak Interactive Wellness offers in-person care at Greenwood Village and Denver locations, plus virtual visits when appropriate—so care can meet you where you are.",
+      "Yes. Peak Interactive Wellness offers in-person care at Greenwood Village and Denver locations, plus virtual visits when appropriate, so care can meet you where you are.",
   },
   {
     question: "How do I get started?",
     answer:
-      "Use the “Find out if you Qualify” form on this page, or call (719) 569-3802. We’ll walk you through eligibility screening and next steps—no pressure, just a clear path forward.",
+      "Use the “Find out if you Qualify” form on this page, or call (719) 569-3802. We’ll walk you through eligibility screening and next steps. No pressure, just a clear path forward.",
   },
 ] as const;

@@ -12,7 +12,7 @@ export default function Services() {
           </h2>
           <p className="text-lead mt-4">
             Peak offers interventional options for treatment-resistant depression and related
-            conditions—personalized, evidence-based, and grounded in whole-person psychiatry.
+            conditions: personalized, evidence-based, and grounded in whole-person psychiatry.
           </p>
         </Reveal>
 

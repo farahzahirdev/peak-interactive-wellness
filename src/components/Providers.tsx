@@ -31,7 +31,7 @@ export default function Providers() {
               <h2 className="mt-3 text-3xl sm:text-4xl lg:text-[2.65rem]">Meet our team.</h2>
               <p className="text-lead mt-4">
                 Compassionate, licensed nurse practitioners take time to understand your full
-                story—emotional, physical, and environmental—so your treatment plan reflects you,
+                story (emotional, physical, and environmental) so your treatment plan reflects you,
                 not just a diagnosis.
               </p>
               <p className="mt-4 text-base text-muted">

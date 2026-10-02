@@ -8,7 +8,7 @@ export default function HowItWorks() {
         <Reveal className="mx-auto max-w-2xl text-center">
           <p className="section-label">How it works</p>
           <h2 className="mt-3 text-3xl sm:text-4xl lg:text-[2.65rem]">
-            Start with eligibility—then build a plan around you.
+            Start with eligibility, then build a plan around you.
           </h2>
           <p className="text-lead mt-4">
             TMS and Spravato® require screening. We make that first step clear, compassionate, and

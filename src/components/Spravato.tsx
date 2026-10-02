@@ -21,7 +21,7 @@ export default function Spravato() {
               </h2>
               <p className="mt-3 max-w-xl text-lead !text-base">
                 Spravato® (esketamine) is a prescription nasal spray that targets NMDA receptors to
-                support new neural pathways—administered only in-clinic through the REMS program.
+                support new neural pathways, administered only in-clinic through the REMS program.
               </p>
 
               <ul className="pk-expect-list">
