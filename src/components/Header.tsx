@@ -43,7 +43,7 @@ export default function Header() {
 
   useEffect(() => {
     const onResize = () => {
-      if (window.innerWidth >= 1024) setOpen(false);
+      if (window.innerWidth >= 1280) setOpen(false);
     };
     window.addEventListener("resize", onResize);
     return () => window.removeEventListener("resize", onResize);
@@ -92,7 +92,7 @@ export default function Header() {
           </Link>
 
           <nav
-            className="hidden items-center gap-6 text-[0.72rem] font-semibold uppercase tracking-[0.14em] text-white/90 lg:flex"
+            className="hidden items-center gap-6 text-[0.72rem] font-semibold uppercase tracking-[0.14em] text-white/90 xl:flex"
             aria-label="Main"
           >
             {NAV_ITEMS.map((item) => (
@@ -102,7 +102,7 @@ export default function Header() {
             ))}
           </nav>
 
-          <div className="hidden items-center gap-3 lg:flex">
+          <div className="hidden items-center gap-3 xl:flex">
             <a
               href={PHONE_HREF}
               className="text-sm font-semibold text-white transition-colors hover:text-mustard"
@@ -120,7 +120,7 @@ export default function Header() {
           <button
             ref={toggleRef}
             type="button"
-            className="mobile-nav-toggle relative z-[80] lg:hidden"
+            className="mobile-nav-toggle relative z-[80] xl:hidden"
             onClick={() => setOpen((prev) => !prev)}
             aria-expanded={open}
             aria-controls="mobile-nav"
@@ -162,7 +162,7 @@ export default function Header() {
         createPortal(
           <button
             type="button"
-            className="mobile-nav-backdrop lg:hidden"
+            className="mobile-nav-backdrop xl:hidden"
             aria-label="Close menu"
             onClick={close}
           />,

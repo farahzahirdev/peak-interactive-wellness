@@ -60,7 +60,7 @@ export default function Hero() {
       </div>
 
       <div className="pk-hero-features" role="region" aria-label="Why Peak">
-        <div className="container-main">
+        <div className="pk-hero-features-inner">
           <ul className="pk-hero-features-grid list-none p-0 m-0">
             {HERO_FEATURES.map((item) => (
               <li key={item.title} className="pk-hero-feature">

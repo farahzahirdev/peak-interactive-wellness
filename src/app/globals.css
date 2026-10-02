@@ -90,12 +90,12 @@ li {
 
 /* ——— Buttons (Peak: soft-rect, not pills) ——— */
 .btn {
-  @apply inline-flex items-center justify-center gap-2 px-6 py-3.5 text-sm font-semibold tracking-wide transition-all sm:px-8 sm:text-base;
+  @apply inline-flex items-center justify-center gap-2 whitespace-nowrap px-5 py-3 text-sm font-semibold tracking-wide transition-all sm:px-6;
   font-family: var(--font-sans);
   line-height: 1.1;
   border-radius: 0.25rem;
   text-transform: uppercase;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.04em;
 }
 
 .btn-primary {
@@ -148,7 +148,7 @@ li {
   border-radius: 0.25rem;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1280px) {
   .mobile-nav-toggle,
   .mobile-nav-backdrop,
   .mobile-nav-panel {
@@ -461,11 +461,30 @@ li {
   }
 }
 
+/* Match .pk-hero-main content width (1180px) edge-to-edge */
+.pk-hero-features-inner {
+  max-width: 1180px;
+  margin-inline: auto;
+  width: 100%;
+  padding-inline: 1rem;
+}
+
+@media (min-width: 640px) {
+  .pk-hero-features-inner {
+    padding-inline: 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .pk-hero-features-inner {
+    padding-inline: 0;
+  }
+}
+
 .pk-hero-features-grid {
   display: grid;
   gap: 1.1rem 1rem;
-  max-width: 1180px;
-  margin-inline: auto;
+  width: 100%;
 }
 
 @media (min-width: 640px) {
