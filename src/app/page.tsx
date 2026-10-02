@@ -7,6 +7,7 @@ import TmsSpotlight from "@/components/TmsSpotlight";
 import Spravato from "@/components/Spravato";
 import Testimonials from "@/components/Testimonials";
 import Providers from "@/components/Providers";
+import InsuranceBar from "@/components/InsuranceBar";
 import FAQ from "@/components/FAQ";
 import InquiryForm from "@/components/InquiryForm";
 
@@ -22,6 +23,7 @@ export default function Home() {
       <Spravato />
       <Testimonials />
       <Providers />
+      <InsuranceBar />
       <FAQ />
       <InquiryForm />
     </>

@@ -1201,6 +1201,188 @@ li {
   color: var(--color-mustard);
 }
 
+/* ——— Insurance bar (matches peakinteractivewellness.com) ——— */
+.pk-insurance {
+  background: var(--color-teal);
+  padding: 2rem 0 2.25rem;
+  overflow: hidden;
+}
+
+@media (min-width: 640px) {
+  .pk-insurance {
+    padding: 2.35rem 0 2.5rem;
+  }
+}
+
+.pk-insurance-inner {
+  width: 100%;
+}
+
+/* Mobile / tablet: horizontal auto-scroll */
+.pk-insurance-marquee {
+  position: relative;
+  overflow: hidden;
+}
+
+.pk-insurance-fade {
+  position: absolute;
+  inset-block: 0;
+  z-index: 2;
+  width: 2.5rem;
+  pointer-events: none;
+}
+
+.pk-insurance-fade--left {
+  left: 0;
+  background: linear-gradient(to right, var(--color-teal), transparent);
+}
+
+.pk-insurance-fade--right {
+  right: 0;
+  background: linear-gradient(to left, var(--color-teal), transparent);
+}
+
+@media (min-width: 640px) {
+  .pk-insurance-fade {
+    width: 3.5rem;
+  }
+}
+
+.pk-insurance-marquee-track {
+  display: flex;
+  width: max-content;
+  animation: pk-insurance-marquee 32s linear infinite;
+}
+
+.pk-insurance-marquee-track:hover {
+  animation-play-state: paused;
+}
+
+.pk-insurance-track {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  gap: 2rem;
+  padding-inline: 1.25rem;
+}
+
+@media (min-width: 640px) {
+  .pk-insurance-track {
+    gap: 2.5rem;
+    padding-inline: 1.75rem;
+  }
+}
+
+@keyframes pk-insurance-marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+/* Desktop: static centered row */
+.pk-insurance-static {
+  display: none;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1.1rem 1.35rem;
+}
+
+@media (min-width: 1024px) {
+  .pk-insurance-marquee {
+    display: none;
+  }
+
+  .pk-insurance-static {
+    display: flex;
+  }
+}
+
+.pk-insurance-logo {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  max-width: 13.5rem;
+}
+
+@media (min-width: 1024px) {
+  .pk-insurance-logo {
+    max-width: 12.25rem;
+  }
+}
+
+.pk-insurance-img {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 5.25rem;
+  object-fit: contain;
+  filter: brightness(0) invert(1);
+}
+
+.pk-insurance-logo:nth-child(6) .pk-insurance-img,
+.pk-insurance-logo:nth-child(7) .pk-insurance-img {
+  max-height: 5.5rem;
+  filter: none;
+}
+
+@media (min-width: 1024px) {
+  .pk-insurance-logo:nth-child(6) .pk-insurance-img,
+  .pk-insurance-logo:nth-child(7) .pk-insurance-img {
+    max-height: 7rem;
+  }
+}
+
+.pk-insurance-copy {
+  margin: 1.15rem 0 0;
+  text-align: center;
+  font-family: var(--font-sans);
+  font-size: clamp(0.72rem, 1.6vw, 0.88rem);
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  line-height: 1.55;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+@media (min-width: 1024px) {
+  .pk-insurance-copy {
+    margin-top: 1.5rem;
+  }
+}
+
+.pk-insurance-link {
+  color: #fff;
+  text-decoration: underline;
+  text-underline-offset: 0.18em;
+  transition: opacity 0.2s ease;
+}
+
+.pk-insurance-link:hover {
+  opacity: 0.85;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .pk-insurance-marquee-track {
+    animation: none;
+  }
+
+  .pk-insurance-marquee {
+    display: none;
+  }
+
+  .pk-insurance-static {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.85rem 1.35rem;
+  }
+}
+
 /* FAQ */
 .pk-faq-layout {
   display: grid;

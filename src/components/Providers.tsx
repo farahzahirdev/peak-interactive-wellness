@@ -4,7 +4,7 @@ import {
   FORM_SECTION_ID,
   IMAGES,
   PROVIDERS_SECTION_ID,
-  WEBSITE_URL,
+  TEAM_URL,
 } from "@/lib/constants";
 
 export default function Providers() {
@@ -46,7 +46,7 @@ export default function Providers() {
                 Find out if you Qualify
               </a>
               <a
-                href={`${WEBSITE_URL}about`}
+                href={TEAM_URL}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn-outline"

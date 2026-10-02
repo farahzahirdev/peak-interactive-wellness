@@ -1,5 +1,5 @@
 /** Bump when replacing files in public/images so caches refresh */
-const IMG_V = "20261002h";
+const IMG_V = "20261002i";
 
 const img = (publicPath: string) => `${publicPath}?v=${IMG_V}`;
 
@@ -64,8 +64,54 @@ export const CONDITIONS_SECTION_ID = "conditions";
 export const PHONE_NUMBER = "(719) 569-3802";
 export const PHONE_HREF = "tel:+17195693802";
 export const WEBSITE_URL = "https://peakinteractivewellness.com/";
+export const TEAM_URL = "https://peakinteractivewellness.com/our-team";
 export const TMS_URL = "https://peakinteractivewellness.com/tms";
 export const SPRAVATO_URL = "https://peakinteractivewellness.com/spravato-tm";
+
+export const INSURANCE_LOGOS = [
+  {
+    src: img("/images/insurance/cigna.svg"),
+    alt: "Cigna",
+    width: 140,
+    height: 48,
+  },
+  {
+    src: img("/images/insurance/blue-cross.svg"),
+    alt: "Anthem BlueCross",
+    width: 150,
+    height: 48,
+  },
+  {
+    src: img("/images/insurance/oscar.svg"),
+    alt: "Oscar",
+    width: 120,
+    height: 36,
+  },
+  {
+    src: img("/images/insurance/united.svg"),
+    alt: "United Healthcare",
+    width: 160,
+    height: 44,
+  },
+  {
+    src: img("/images/insurance/aetna.svg"),
+    alt: "Aetna",
+    width: 120,
+    height: 36,
+  },
+  {
+    src: img("/images/insurance/oxford.svg"),
+    alt: "Oxford Health Plans",
+    width: 150,
+    height: 90,
+  },
+  {
+    src: img("/images/insurance/health-first-colorado.svg"),
+    alt: "Health First Colorado",
+    width: 140,
+    height: 90,
+  },
+] as const;
 
 export const LOCATIONS = [
   {
