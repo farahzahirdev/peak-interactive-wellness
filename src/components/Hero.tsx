@@ -1,11 +1,8 @@
 import Image from "next/image";
-import Link from "next/link";
 import {
   FORM_SECTION_ID,
   HERO_FEATURES,
   IMAGES,
-  LOGO_MARK_URL,
-  LOGO_ON_LIGHT_URL,
   PHONE_HREF,
   PHONE_NUMBER,
 } from "@/lib/constants";
@@ -13,50 +10,6 @@ import {
 export default function Hero() {
   return (
     <section aria-labelledby="hero-heading" className="pk-hero-shell">
-      <div className="pk-hero-top">
-        <div className="container-main pk-hero-top-inner">
-          <Link href="/" className="pk-hero-logo-link shrink-0">
-            <Image
-              src={LOGO_MARK_URL}
-              alt=""
-              width={44}
-              height={74}
-              className="pk-hero-logo-mark"
-              priority
-              unoptimized
-            />
-            <Image
-              src={LOGO_ON_LIGHT_URL}
-              alt="Peak Interactive Wellness"
-              width={200}
-              height={82}
-              className="pk-hero-logo-word"
-              priority
-              unoptimized
-            />
-          </Link>
-
-          <ul className="pk-hero-meta list-none p-0 m-0">
-            <li className="pk-hero-meta-item pk-hero-meta-item--hide-sm">
-              <PinIcon />
-              <span>Greenwood Village &amp; Denver, CO</span>
-            </li>
-            <li aria-hidden className="pk-hero-meta-divider pk-hero-meta-item--hide-sm" />
-            <li className="pk-hero-meta-item pk-hero-meta-item--hide-sm">
-              <LaptopIcon />
-              <span>In-person or Virtual</span>
-            </li>
-            <li aria-hidden className="pk-hero-meta-divider pk-hero-meta-item--hide-sm" />
-            <li className="pk-hero-meta-item">
-              <a href={PHONE_HREF} className="pk-hero-meta-phone">
-                <PhoneIcon />
-                <span className="pk-hero-phone-label">{PHONE_NUMBER}</span>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-
       <div className="pk-hero-main">
         <div className="pk-hero-copy-col">
           <div className="container-main pk-hero-copy-inner">
@@ -131,22 +84,6 @@ function ArrowIcon() {
   return (
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="h-4 w-4 shrink-0" aria-hidden="true">
       <path strokeLinecap="round" strokeLinejoin="round" d="M5 12h14M13 6l6 6-6 6" />
-    </svg>
-  );
-}
-
-function PinIcon() {
-  return (
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="h-4 w-4 shrink-0 text-teal" aria-hidden="true">
-      <path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd" />
-    </svg>
-  );
-}
-
-function LaptopIcon() {
-  return (
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" className="h-4 w-4 shrink-0 text-teal" aria-hidden="true">
-      <path strokeLinecap="round" strokeLinejoin="round" d="M9 17H7A2 2 0 015 15V5a2 2 0 012-2h10a2 2 0 012 2v10a2 2 0 01-2 2h-2M9 17v2h6v-2M9 17h6" />
     </svg>
   );
 }

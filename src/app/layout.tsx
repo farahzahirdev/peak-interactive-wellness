@@ -1,7 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import Script from "next/script";
 import "./globals.css";
-import ScrollHeader from "@/components/ScrollHeader";
+import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -44,7 +44,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="font-sans">
-        <ScrollHeader />
+        <Header />
         <main>{children}</main>
         <Footer />
         <Script src="https://go.4tms.com/js/form_embed.js" strategy="afterInteractive" />
