@@ -26,8 +26,8 @@ export const HERO_FEATURES = [
   },
   {
     id: "locations",
-    title: "Two Colorado Locations",
-    description: "Greenwood Village & Denver, plus telehealth.",
+    title: "Denver Location",
+    description: "In-person care in Denver, plus telehealth.",
   },
   {
     id: "reviews",
@@ -115,10 +115,6 @@ export const INSURANCE_LOGOS = [
 
 export const LOCATIONS = [
   {
-    name: "Greenwood Village",
-    address: "6530 S. Yosemite St., Suite 330, Greenwood Village, CO 80111",
-  },
-  {
     name: "Denver",
     address: "3455 Ringsby Court, Suite 140, Denver, CO 80216",
   },
@@ -169,7 +165,7 @@ export const WHY_ITEMS = [
   "Licensed nurse practitioner team with deep clinical expertise",
   "Innovative options for treatment-resistant depression (TMS & Spravato®)",
   "Most commercial insurance plans accepted",
-  "In-person at two Colorado locations or virtual telehealth",
+  "In-person in Denver or virtual telehealth",
   "Over 350 five-star Google reviews from people who felt heard",
 ] as const;
 
@@ -246,7 +242,7 @@ export const FAQ_ITEMS = [
   {
     question: "Do you offer telehealth?",
     answer:
-      "Yes. Peak Interactive Wellness offers in-person care at Greenwood Village and Denver locations, plus virtual visits when appropriate, so care can meet you where you are.",
+      "Yes. Peak Interactive Wellness offers in-person care at our Denver location, plus virtual visits when appropriate, so care can meet you where you are.",
   },
   {
     question: "How do I get started?",

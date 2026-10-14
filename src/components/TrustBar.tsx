@@ -15,7 +15,7 @@ export default function TrustBar() {
           </li>
           <li className="pk-trust-item">
             <PinIcon />
-            <span>Greenwood Village · Denver · Telehealth</span>
+            <span>Denver · Telehealth</span>
           </li>
         </ul>
       </div>

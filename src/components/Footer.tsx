@@ -25,8 +25,8 @@ export default function Footer() {
             unoptimized
           />
           <p className="mt-4 max-w-md text-sm leading-relaxed text-white/75">
-            Modern, whole-person psychiatric care in Denver &amp; Greenwood Village: TMS, Spravato®,
-            and personalized treatment for those ready for something more.
+            Modern, whole-person psychiatric care in Denver: TMS, Spravato®, and personalized
+            treatment for those ready for something more.
           </p>
         </div>
 
@@ -99,7 +99,7 @@ export default function Footer() {
 
         <div className="mt-6 flex flex-col items-start justify-between gap-2 border-t border-white/15 pt-5 text-xs text-white/55 sm:flex-row sm:items-center">
           <p>© {new Date().getFullYear()} Peak Interactive Wellness. All rights reserved.</p>
-          <p>TMS · Spravato® · Denver &amp; Greenwood Village, CO</p>
+          <p>TMS · Spravato® · Denver, CO</p>
         </div>
       </div>
     </footer>

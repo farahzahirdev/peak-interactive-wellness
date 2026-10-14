@@ -16,7 +16,7 @@ export default function Providers() {
             <div className="pk-providers-media">
               <Image
                 src={IMAGES.meetOurTeam}
-                alt="Meet the Peak Interactive Wellness clinical team in Denver and Greenwood Village"
+                alt="Meet the Peak Interactive Wellness clinical team in Denver"
                 fill
                 quality={95}
                 sizes="(max-width: 1024px) 100vw, 46vw"

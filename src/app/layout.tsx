@@ -5,7 +5,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Peak Interactive Wellness | TMS & Spravato® in Denver & Greenwood Village",
+  title: "Peak Interactive Wellness | TMS & Spravato® in Denver",
   description:
     "Modern, whole-person psychiatric care for treatment-resistant depression, anxiety, and PTSD. Find out if you qualify for TMS or Spravato®. Call (719) 569-3802.",
   icons: {
@@ -19,14 +19,14 @@ export const metadata: Metadata = {
   keywords: [
     "Peak Interactive Wellness",
     "TMS therapy Denver",
-    "Spravato Greenwood Village",
+    "Spravato Denver",
     "treatment-resistant depression Colorado",
     "psychiatric care Denver",
   ],
   openGraph: {
     title: "Peak Interactive Wellness | You're More Than a Diagnosis",
     description:
-      "Personalized TMS and Spravato® care in Denver & Greenwood Village. Find out if you qualify.",
+      "Personalized TMS and Spravato® care in Denver. Find out if you qualify.",
     locale: "en_US",
     type: "website",
   },
