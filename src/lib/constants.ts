@@ -1,5 +1,5 @@
 /** Bump when replacing files in public/images so caches refresh */
-const IMG_V = "20261002i";
+const IMG_V = "20261021a";
 
 const img = (publicPath: string) => `${publicPath}?v=${IMG_V}`;
 
@@ -38,7 +38,7 @@ export const HERO_FEATURES = [
 
 export const IMAGES = {
   hero: img("/images/hero.jpg"),
-  tms: img("/images/tms.jpg"),
+  tms: img("/images/tms.png"),
   spravato: img("/images/spravato.jpg"),
   team: img("/images/team.jpg"),
   mindfulness: img("/images/mindfulness.jpg"),

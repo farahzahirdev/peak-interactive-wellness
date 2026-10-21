@@ -17,7 +17,7 @@ export default function TmsSpotlight() {
             <div className="pk-tms-media">
               <Image
                 src={IMAGES.tms}
-                alt="Patient receiving TMS therapy in a comfortable clinical setting"
+                alt="TMS therapy device used at Peak Interactive Wellness"
                 fill
                 quality={95}
                 sizes="(max-width: 900px) 100vw, 52vw"
